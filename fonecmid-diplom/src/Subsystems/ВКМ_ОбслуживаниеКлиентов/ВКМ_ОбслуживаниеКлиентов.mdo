@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11f6440f-eda0-4ea7-ad37-1bfc47ef360e">
-  <name>ВКМ_ДобавленныеОбъекты</name>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99ba0f5f-4bcb-401b-947f-603af7d50ff6">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Добавленные объекты</value>
+    <value>Обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>CommonModule.ВКМ_РаботаСФормами</content>
-  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
-  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
 </mdclass:Subsystem>
