@@ -204,7 +204,6 @@
       <key>ru</key>
       <value>Выполненные работы</value>
     </synonym>
-    <fillChecking>ShowError</fillChecking>
     <attributes uuid="fc463de9-d0de-4998-96f6-af92f067b879">
       <name>ОписаниеРабот</name>
       <synonym>
