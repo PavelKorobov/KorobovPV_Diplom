@@ -32,4 +32,6 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>Document.ВКМ_НачислениеЗарплаты</content>
   <content>Constant.ВКМ_РазмерНДФЛ</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
