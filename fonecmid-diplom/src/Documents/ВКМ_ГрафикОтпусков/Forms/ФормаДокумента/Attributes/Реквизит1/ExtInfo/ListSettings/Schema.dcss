@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSet xsi:type="DataSetQuery">
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДокумента</dataPath>
+			<field>СуммаДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Ссылка</dataPath>
+			<field>Товары.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.НомерСтроки</dataPath>
+			<field>Товары.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Номенклатура</dataPath>
+			<field>Товары.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Количество</dataPath>
+			<field>Товары.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Цена</dataPath>
+			<field>Товары.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Скидка</dataPath>
+			<field>Товары.Скидка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары.Сумма</dataPath>
+			<field>Товары.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Товары</dataPath>
+			<field>Товары</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Ссылка</dataPath>
+			<field>Услуги.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.НомерСтроки</dataPath>
+			<field>Услуги.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Номенклатура</dataPath>
+			<field>Услуги.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Количество</dataPath>
+			<field>Услуги.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Цена</dataPath>
+			<field>Услуги.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Скидка</dataPath>
+			<field>Услуги.Скидка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Услуги.Сумма</dataPath>
+			<field>Услуги.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Услуги</dataPath>
+			<field>Услуги</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МоментВремени</dataPath>
+			<field>МоментВремени</field>
+		</field>
+		<query>ВЫБРАТЬ 
+       ЗаказПокупателя.Ссылка, 
+       ЗаказПокупателя.ПометкаУдаления, 
+       ЗаказПокупателя.Номер, 
+       ЗаказПокупателя.Дата, 
+       ЗаказПокупателя.Проведен, 
+       ЗаказПокупателя.Организация, 
+       ЗаказПокупателя.Контрагент, 
+       ЗаказПокупателя.Договор, 
+       ЗаказПокупателя.СуммаДокумента, 
+       ЗаказПокупателя.Ответственный, 
+       ЗаказПокупателя.Комментарий, 
+       ЗаказПокупателя.Товары.*, 
+       ЗаказПокупателя.Услуги.*, 
+       ЗаказПокупателя.МоментВремени
+ ИЗ 
+       Документ.ЗаказПокупателя
+ КАК 
+       ЗаказПокупателя</query>
+	</dataSet>
+</DataCompositionSchema>

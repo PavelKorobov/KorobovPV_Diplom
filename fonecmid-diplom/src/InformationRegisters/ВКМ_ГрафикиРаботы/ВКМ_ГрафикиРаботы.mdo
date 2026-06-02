@@ -12,7 +12,7 @@
   <name>ВКМ_ГрафикиРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>Графики работы</value>
+    <value>Графики рабочих дней</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
