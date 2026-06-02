@@ -37,4 +37,5 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Role.ВКМ_РасчетУправленческойЗарплаты</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

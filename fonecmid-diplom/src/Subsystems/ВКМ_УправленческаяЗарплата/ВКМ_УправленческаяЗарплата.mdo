@@ -25,4 +25,5 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>CommandGroup.ВКМ_Документы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>
