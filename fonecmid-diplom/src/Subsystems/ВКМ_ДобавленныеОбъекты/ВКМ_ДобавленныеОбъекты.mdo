@@ -38,4 +38,6 @@
   <content>Role.ВКМ_РасчетУправленческойЗарплаты</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>AccumulationRegister.ВКМ_ОказанныеУслуги</content>
 </mdclass:Subsystem>

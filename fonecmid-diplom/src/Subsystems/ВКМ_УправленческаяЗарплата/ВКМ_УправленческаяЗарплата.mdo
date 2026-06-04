@@ -26,4 +26,5 @@
   <content>CommandGroup.ВКМ_Документы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>
