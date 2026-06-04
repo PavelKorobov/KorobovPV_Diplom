@@ -40,4 +40,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>AccumulationRegister.ВКМ_ОказанныеУслуги</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
 </mdclass:Subsystem>
