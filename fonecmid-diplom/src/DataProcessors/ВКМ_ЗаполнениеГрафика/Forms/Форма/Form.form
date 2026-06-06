@@ -54,6 +54,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>График</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ГрафикПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ГрафикРасширеннаяПодсказка</name>
         <id>15</id>
