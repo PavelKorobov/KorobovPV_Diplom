@@ -22,6 +22,10 @@
         <key>ru</key>
         <value>Выберите любую дату месяца</value>
       </toolTip>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПериодПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПериодРасширеннаяПодсказка</name>
         <id>3</id>

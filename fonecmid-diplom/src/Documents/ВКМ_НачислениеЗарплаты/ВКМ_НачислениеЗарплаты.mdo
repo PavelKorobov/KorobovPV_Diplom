@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_НачислениеЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
@@ -30,6 +31,15 @@
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="dac99d48-2848-4e44-b5f2-7bc3697174a4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="0b98449b-59b5-4848-bd40-fb67dc99f803">
     <producedTypes>
       <objectType typeId="f3e32445-415f-4c88-8765-55a023767a2f" valueTypeId="b756d991-a830-4f86-bf43-0eca9b153279"/>
