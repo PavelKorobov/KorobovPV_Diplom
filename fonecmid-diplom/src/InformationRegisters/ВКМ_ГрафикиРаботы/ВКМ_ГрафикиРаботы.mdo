@@ -17,6 +17,26 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Календарный день </value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Календарный день (рабочий или нерабочий)</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список календарных дней (рабочих и нерабочих)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список календарных дней с указанием вида графика</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр со списком рабочих и нерабочих дней</value>
+  </explanation>
   <resources uuid="492c5c7c-ecc8-4206-9ed8-4e9e32d9fc75">
     <name>Значение</name>
     <synonym>

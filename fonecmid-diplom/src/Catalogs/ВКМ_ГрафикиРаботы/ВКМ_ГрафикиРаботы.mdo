@@ -23,6 +23,14 @@
     <key>ru</key>
     <value>График работы</value>
   </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник с видами графиков работы</value>
+  </explanation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
